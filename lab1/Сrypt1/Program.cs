@@ -11,9 +11,6 @@ public class Program
 
         var dict = key.KeyValuePairs();
 
-        // Не знаю... мне не нравиться такая хуйня,
-        // но и в конце лишняя строка в файле смотриться как дерьмо,
-        // но я не в курсах как это пофиксить
         var count = dict.Count;
         foreach (var item in dict)
             if (count > 1)
